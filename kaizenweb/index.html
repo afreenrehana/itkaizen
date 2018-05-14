@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>KAIZEN TECHNOLOGIES</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" media="screen" href="css/reset.css">
+<link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+<link rel="stylesheet" type="text/css" media="screen" href="css/grid_12.css">
+<link rel="stylesheet" type="text/css" media="screen" href="css/slider.css">
+<link href='http://fonts.googleapis.com/css?family=Condiment' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+<script src="js/jquery-1.7.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/tms-0.4.x.js"></script>
+<script>
+$(document).ready(function(){				   	
+	$('.slider')._TMS({
+		show:0,
+		pauseOnHover:true,
+		prevBu:false,
+		nextBu:false,
+		playBu:false,
+		duration:1000,
+		preset:'fade',
+		pagination:true,
+		pagNums:false,
+		slideshow:7000,
+		numStatus:true,
+		banners:'fromRight',
+		waitBannerAnimation:false,
+		progressBar:false
+	})		
+});
+</script>
+<!--[if lt IE 9]>
+<script src="js/html5.js"></script>
+<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+<![endif]-->
+</head>
+<body>
+<div class="main">
+  <!--==============================header=================================-->
+  <header>
+    <h1><a href="index.html"><img src="images/logo.png" alt=""></a></h1>
+    <div class="form-search">
+      <form id="form-search" method="post" action="#">
+        <input type="text" value="Type here..." onBlur="if(this.value=='') this.value='Type here...'" onFocus="if(this.value =='Type here...' ) this.value=''"  />
+        <a href="#" class="search_button"></a>
+      </form>
+    </div>
+    <div class="clear"></div>
+    <nav class="box-shadow">
+      <div>
+        <ul class="menu">
+          <li class="home-page current"><a href="index.html"><span></span></a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Products</a></li>
+          <li><a href="clients.html">Clients</a></li>
+          <li><a href="services.html">Machines</a></li>
+          <li><a href="register.php">REGISTER/LOGIN</a></li>
+          <li><a href="alogin.php">Admin</a></li>
+          <li><a href="contacts.html">Contact us</a></li>
+        </ul>
+        <div class="social-icons"> <span>Follow us:</span> <a href="#" class="icon-3"></a> <a href="#" class="icon-2"></a> <a href="#" class="icon-1"></a> </div>
+        <div class="clear"></div>
+      </div>
+    </nav>
+  </header>
+  <!--==============================content================================-->
+  <section id="content">
+    <div id="slide" class="box-shadow">
+      <div class="slider">
+        <ul class="items">
+          <li><img src="images/slider-1.jpeg" alt="" />
+            <div class="banner">pioneers in thermoset plastic moulding&nbsp;</div>
+          </li>
+          <li><img src="images/slider-2.jpeg" alt="" />
+            <div class="banner">20 years of experience&nbsp;</div>
+          </li>
+          <li><img src="images/slider-3.jpeg" alt="" />
+            <div class="banner">We craft car alternative parts&nbsp;</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container_12">
+      <div class="grid_12">
+        <div class="pad-0 border-1">
+          <h2 class="top-1 p0">Thermosetting Plastic moulding Professionals</h2>
+          <p class="p2">We use quality raw materials to mould complete product in perfect shape &amp; As a custom thermoset molder,Kaizen technologies offers thermoset injection, injection-compression, and insert molding services of thermoset, or thermosetting, materials such as cooker handles,car alternative and 750W motor housing</p>
+        </div>
+        <div class="wrap block-1 pad-1">
+          <div>
+            <h3>Our achievements</h3>
+            <img src="images/page1-img1.jpg" alt="" class="img-border">
+            <p>Kaizen technologies have been pioneers since 20 years on thermoset plastic moulding.We have well dedicated workers to craft and manufacture moulding products.</p>
+            <a href="about.html" class="button">More</a> </div>
+          <div>
+            <h3>Our Innovations</h3>
+            <img src="images/page1-img2.jpg" alt="" class="img-border">
+            <p>We mould products using injection,compression and transfer moulding process.See more about the products manufactured</p>
+            <a href="projects.html" class="button">More</a> </div>
+          <div class="last">
+            <h3>Get In Touch</h3>
+            <img src="images/page1-img3.jpg" alt="" class="img-border">
+            <p>To know the details of our products and many more on deals and information on contacting us.</p>
+            <a href="contacts.html" class="button">More</a> </div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+    
+  </section>
+</div>
+<!--==============================footer=================================-->
+<footer>
+  <p>© 2018 KaizenTek</p>
+  <p>an ISO 9001:2008 Certified</a></p>
+</footer>
+</body>
+</html>
