@@ -40,6 +40,7 @@
     <?php  if (isset($_SESSION['username'])) : ?>
       <p>Welcome <strong><?php echo $_SESSION['username']; ?></strong></p>
       <iframe src="fl.html" width="350" height="200">
+        <iframe src="rep.html" width="350" height="300">
 </iframe>
 
 
